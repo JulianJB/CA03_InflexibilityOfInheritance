@@ -10,13 +10,17 @@ package cTask.src;
  */
 class DecoyDuck extends Duck {
 
+    @Override
     void quack() {
         ;	//do nothing
     }
+
+    @Override
     void fly() {
         ;	//do nothing
     }
 
+    @Override
     void display() {
         System.out.println("DecoyDuck floats on the water");
     }

@@ -23,7 +23,6 @@ class Runner {
     }
 
     static void demonstrateDucks(Duck[] duckArray) {
-
         for (Duck d : duckArray) {
             d.display();
 
@@ -34,7 +33,7 @@ class Runner {
             System.out.print("\t, and flys off: ");
             d.fly();
 
-            System.out.println("\n\n");
+            System.out.println("");
         }
     }
 }
