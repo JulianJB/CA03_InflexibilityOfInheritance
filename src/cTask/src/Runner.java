@@ -6,14 +6,13 @@ package cTask.src;
  *	nothing.
  *  Run the code and study the output carefully.
  */
-class Runner
-{
-    public static void main(String[] args)
-    {
+class Runner {
+    public static void main(String[] args) {
         System.out.println("Welcome to the duck show");
         System.out.println("On display today...");
 
-        Duck[] ducks = new Duck[]{ 	new MallardDuck()
+        Duck[] ducks = new Duck[] {
+                new MallardDuck()
                 , new RedHeadDuck()
                 , new RubberDuck()
                 //, new DecoyDuck()		//ADD a DecoyDuck to see
@@ -23,10 +22,9 @@ class Runner
         demonstrateDucks(ducks);
     }
 
+    static void demonstrateDucks(Duck[] duckArray) {
 
-    static void demonstrateDucks(Duck[] duckArray){
-
-        for (Duck d : duckArray){
+        for (Duck d : duckArray) {
             d.display();
 
             System.out.print("\t, then it swims like this: ");

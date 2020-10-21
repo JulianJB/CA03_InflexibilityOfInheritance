@@ -3,7 +3,7 @@ package cTask.src;
 class RubberDuck extends Duck {
 
     // override fly() and implement it to do nothing
-    void fly(){
+    void fly() {
         ;	// do nothing
     }
 

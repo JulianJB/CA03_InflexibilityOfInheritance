@@ -6,22 +6,21 @@ package cTask.src;
 abstract class Duck {
 
     Duck() {
-        System.out.println(" a "+this.getClass().getName());
+        System.out.println(" a " + this.getClass().getName());
     }
 
     void quack() {
-        System.out.println("<<"+this.getClass().getName()+" quack sound>>");
+        System.out.println("<<" + this.getClass().getName() + " quack sound>>");
     }
 
     void swim() {
-        System.out.println("<<"+this.getClass().getName()+" swim style>>");
+        System.out.println("<<" + this.getClass().getName() + " swim style>>");
     }
 
     void fly() {
-        System.out.println("<<"+this.getClass().getName()+" fly style>>");
+        System.out.println("<<" + this.getClass().getName() + " fly style>>");
     }
 
     //Force sub-classes to implement a display() method
     abstract void display();
-
 }

@@ -10,15 +10,14 @@ package cTask.src;
  */
 class DecoyDuck extends Duck {
 
-    void quack(){
+    void quack() {
         ;	//do nothing
     }
-    void fly(){
+    void fly() {
         ;	//do nothing
     }
 
     void display() {
         System.out.println("DecoyDuck floats on the water");
     }
-
 }
